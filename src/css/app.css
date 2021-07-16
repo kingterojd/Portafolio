@@ -5,32 +5,31 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 body::-webkit-scrollbar {
     width: 8px !important;     /* Tamaño del scroll en vertical */
     height: 8px !important;    /* Tamaño del scroll en horizontal */
     
 }
 body::-webkit-scrollbar-thumb {
-    background: #793afa !important;
+    background: #807f7f !important;
     border-radius: 50px !important;
 }
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 body::-webkit-scrollbar-thumb:hover {
-    background: #5e35b1 !important;
+    background: #ccc !important;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2) !important;
 }
 /* Cambiamos el fondo cuando esté en active */
 body::-webkit-scrollbar-thumb:active {
-    background-color: #673ab7 !important;
+    background-color: #ccc !important;
 }
 /* Ponemos un color de fondo y redondeamos las esquinas del track */
 body::-webkit-scrollbar-track {
-    background: #e1e1e1 !important;
+    background: #fff !important;
     border-radius: 4px !important;
 }
 /* Cambiamos el fondo cuando esté en active o hover */
 body::-webkit-scrollbar-track:hover,
 body::-webkit-scrollbar-track:active {
-  background: #d4d4d4 !important;
+  background: #fff !important;
 }

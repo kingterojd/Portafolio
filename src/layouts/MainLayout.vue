@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <div class="bg-deep-purple-9 q-py-md text-white">
+      <div class="bg-deep-purple-9 q-pa-md text-white">
         <q-toolbar>
           <q-toolbar-title>JESUS QUINTERO</q-toolbar-title>
           <q-btn stretch flat label="About" />

@@ -1,14 +1,23 @@
 <template>
   <q-page class="q-py-md">
     <div class="row justify-center">
-      <div class="col-lg-4 col-md-8 col-sm-12">
+      <div class="col-xs-12 col-md-8 col-lg-4">
          <q-card flat>
-            <q-card-section class="text-center">
-              <q-avatar size="100px">
-                <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+            <q-card-section class="text-center q-pb-none">
+              <q-avatar size="120px">
+                <img src="../statics/images/profile.png">
               </q-avatar>
-              <div class="text-h6">Our Changing Planet</div>
-              <div class="text-subtitle2">by John Doe</div>
+              <div class="q-pt-md">
+                <q-icon name="lab la-github" size="md" class="q-px-sm cursor-pointer">
+                  <q-tooltip :offset="[10, 3]">Github</q-tooltip>
+                </q-icon>
+                <q-icon name="lab la-linkedin-in" size="md" class="q-px-sm cursor-pointer">
+                  <q-tooltip :offset="[10, 3]">Linkedin</q-tooltip>
+                </q-icon>
+                <q-icon name="lab la-gitlab" size="md" class="q-px-sm cursor-pointer">
+                  <q-tooltip :offset="[10, 3]">Gitlab</q-tooltip>
+                </q-icon>
+              </div>
             </q-card-section>
             <q-card-section>
               <div v-for="item in 25" :key="item" class="q-pa-md">
